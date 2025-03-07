@@ -1,0 +1,24 @@
+import java.util.Scanner;
+public class Principal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner leitor = new Scanner(System.in);
+		Calcu calc = new Calcu();
+		
+		//SOMA SEM RETORNO E SEM PARÂMETRO
+		calc.somatoria();
+		
+		//SUBTRAÇÃO SEM RETORNO COM PARÂMETRO
+		calc.subtracao(10, 5);
+		System.out.print("O resultado da subtração é: " + calc.resultado);
+		
+		//DIVISÃO SEM PARAMETRO E COM RETORNO
+		System.out.print("A divisão é: " + calc.divisao());
+		
+		//MULTIPLICAÇÃO COM PARAMETRO E COM RETORNO
+		calc.multiplicacao(4,5);
+		System.out.print("O resultado da multiplicação é de: "+calc.multiplicacao(4,5));
+	}
+
+}

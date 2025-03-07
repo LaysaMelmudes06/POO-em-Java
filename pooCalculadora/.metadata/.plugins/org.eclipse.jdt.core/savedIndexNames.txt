@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+E:\ETEC-MOD 2\DS\POO\pooCalculadora\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+3092446199.index
+3897940576.index

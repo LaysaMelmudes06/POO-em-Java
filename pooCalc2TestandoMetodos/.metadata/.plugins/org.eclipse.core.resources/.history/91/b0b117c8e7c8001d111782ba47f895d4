@@ -1,0 +1,40 @@
+import java.util.Scanner;
+public class Calcu {
+	
+	double numA;
+	double numB;
+	double resultado;
+	
+
+public void somatoria() {
+	Scanner leitor = new Scanner(System.in);	
+	System.out.println("Digite  o numero A: ");
+	this.numA = leitor.nextDouble();
+	System.out.println("Digite  o numero B: ");
+	this.numB = leitor.nextDouble();
+	this.resultado = this.numA + this.numB;
+	System.out.println("A soma é: "+ this.resultado);
+}
+public void subtracao(double numero1, double numero2) {
+	this.numA = numero1;
+	this.numB = numero2;
+	resultado = this.numA - this.numB;
+	
+}
+public double divisao() {
+	Scanner leitor = new Scanner(System.in);	
+	System.out.println("Digite  o numero A: ");
+	this.numA = leitor.nextDouble();
+	System.out.println("Digite  o numero B: ");
+	this.numB = leitor.nextDouble();
+	this.resultado = this.numA / this.numB;
+	return resultado;
+}
+public double multiplicacao(double numero1, double numero2) {
+	this.numA = numero1;
+	this.numB = numero2;
+	this.resultado = this.numA * this.numB;
+	System.out.println("A multiplicação é: "+ this.resultado);
+	return resultado;
+}
+}

@@ -1,0 +1,35 @@
+
+
+import java.util.Scanner;
+public class Calculadora {
+	
+	double numA;
+	double numB;
+	double resultado;
+	
+
+public void somatoria() {
+		this.resultado = this.numA + this.numB;
+		System.out.print("A soma é: "+ this.resultado +'\n');
+	}
+	public void subtracao(double numero1, double numero2) {
+		this.numA = numero1;
+		this.numB = numero2;
+		resultado = this.numA - this.numB;
+		
+	}
+	public double divisao() {
+		if(numB==0) {
+			System.out.println("Número Inválido");
+		}
+		else {
+		this.resultado = this.numA / this.numB;}
+		return resultado;
+	}
+	public double multiplicacao(double numero1, double numero2) {
+		this.numA = numero1;
+		this.numB = numero2;
+		this.resultado = this.numA * this.numB;
+		return resultado;
+	}
+}
